@@ -1,0 +1,46 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  .contenedor-d {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .flex-row-d {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .foto-d {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .foto-d img {
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  .acerca-de-d {
+    width: 50%;
+    padding: 20px;
+    color: #333;
+  }
+  .acerca-de-d h1 {
+    margin-top: 0;
+  }
